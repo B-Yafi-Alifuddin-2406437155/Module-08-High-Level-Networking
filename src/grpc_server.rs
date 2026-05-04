@@ -25,7 +25,6 @@ impl PaymentService for MyPaymentService {
     ) -> Result<Response<PaymentResponse>, Status> {
         println!("Received payment request: {:?}", request);
 
-        // Simulasi proses request dan mengembalikan response sukses
         Ok(Response::new(PaymentResponse { success: true }))
     }
 }

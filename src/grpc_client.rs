@@ -1,4 +1,4 @@
-use tonic::transport::{Channel, channel};
+use tonic::transport::Channel;
 use tokio::sync::mpsc;
 use tokio_stream::wrappers::ReceiverStream;
 use tokio::sync::mpsc::{Sender, Receiver};
